@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AggregateDemo.domain.Anleihe
 {
-    public interface AnleiheRepository
+    public interface IAnleiheRepository
     {
         void Speichern(Anleihe anleihe);
         void Aendern(Anleihe anleihe);

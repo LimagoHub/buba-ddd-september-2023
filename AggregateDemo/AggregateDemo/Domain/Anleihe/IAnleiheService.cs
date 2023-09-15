@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AggregateDemo.domain.Anleihe
 {
-    public interface AnleiheService
+    public interface IAnleiheService
     {
         void erfasseAnleihe(Anleihe anleihe);
         void ErmitteleUndSetzeRatingFuerAnleihe(string ISIN);

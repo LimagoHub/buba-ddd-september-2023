@@ -8,8 +8,8 @@ Console.WriteLine("Hello, World!");
 
 
 
-AnleiheRepository repository = new AnleiheRepositoryImpl();
-AnleiheService service = new AnleiheServiceImpl(repository);
+IAnleiheRepository repository = new AnleiheRepositoryImpl();
+IAnleiheService service = new AnleiheServiceImpl(repository);
 
 
 Anleihe anleihe = new Anleihe();

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AggregateDemo.domain.Anleihe.impl
 {
-    public class AnleiheServiceImpl : AnleiheService
+    public class AnleiheServiceImpl : IAnleiheService
     {
-        private readonly AnleiheRepository repository;
+        private readonly IAnleiheRepository repository;
         //private readonly RatingService ratingService;
 
-        public AnleiheServiceImpl(AnleiheRepository repository)
+        public AnleiheServiceImpl(IAnleiheRepository repository)
         {
             this.repository = repository;
         }

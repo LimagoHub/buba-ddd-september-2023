@@ -8,7 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Application\" />
+    <Folder Include="Adapter\Messaging\" />
+    <Folder Include="Adapter\Rest\" />
+    <Folder Include="Application\Configuration\" />
+    <Folder Include="Application\Handler\" />
+    <Folder Include="Domain\PortfolioAggregates\PortfolioMitVortag\" />
+    <Folder Include="Domain\PortfolioAggregates\Portfolio\impl\" />
   </ItemGroup>
 
 </Project>

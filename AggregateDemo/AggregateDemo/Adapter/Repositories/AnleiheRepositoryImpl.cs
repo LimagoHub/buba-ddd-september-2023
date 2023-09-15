@@ -7,7 +7,7 @@ using AggregateDemo.domain.Anleihe;
 
 namespace AggregateDemo.Adapter.Repositories
 {
-    public class AnleiheRepositoryImpl: AnleiheRepository
+    public class AnleiheRepositoryImpl: IAnleiheRepository // Mapper
     {
         public void Speichern(Anleihe anleihe)
         {
@@ -26,6 +26,9 @@ namespace AggregateDemo.Adapter.Repositories
 
         public Anleihe? FindeAnleiheNachISIN(string ISIN)
         {
+            // Entity aus Entityframework holen
+            // Entity auf DomainObjekt mappen
+            // DomainObjekt zurückgeben
             throw new NotImplementedException();
         }
 
